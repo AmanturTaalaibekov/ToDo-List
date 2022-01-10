@@ -1,0 +1,79 @@
+body{
+background-color: rgb(140, 180, 240);
+}
+h1{ 
+font-size: 40px !important; 
+position: relative; 
+background: #ba89b6; 
+color: #fff; 
+text-align: center; 
+padding: 1em 2em;
+margin: 0 0 3em;
+border-radius:40px;
+text-shadow: 3px 5px 6px #6C9;
+}
+input{
+   text-align: center;
+   
+}
+
+input[type="text"] {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 16px;
+    border-radius: 70px 30px;
+    text-shadow: 2px 3px 4px;
+}
+button{
+    text-shadow: lavender;
+    margin: auto;
+    display: block;
+    font-size: 25px;
+     text-shadow: 2px 3px 4px #0a080a;
+     border-radius: 70px;
+
+}
+.active {
+    background:rgb(155, 180, 45);
+    margin: 10px;
+    padding: 10px;
+}
+.card{
+
+    background: rgb(28, 104, 139);
+    margin: 10px;
+    padding: 10px;
+}
+
+.newCard{
+ z-index: -5 ;
+ display: flex;
+}
+
+@keyframes card{ 
+from{position: relative;
+    top: 20px;
+    left : 50%
+    
+
+}
+}
+
+output[class = 'text']{
+width: 200px;
+    height: 300px;
+   text-align: center; 
+   }
+
+#imgDone{
+    margin: 0px 0px 0px 100px;
+}
+
+.btns{
+    display:flex;
+}
+
+input:focus {
+  border-color: red;    
+}
